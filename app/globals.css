@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.notebook {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 24px,
+      rgba(231, 240, 255, 0.6) 24px,
+      rgba(231, 240, 255, 0.6) 25px
+    );
+  border: 1px solid rgba(11, 16, 33, 0.1);
+  box-shadow: 0 24px 60px -30px rgba(11, 16, 33, 0.65);
+}
+
+.section-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px -25px rgba(11, 16, 33, 0.35);
+  border: 1px solid rgba(42, 157, 143, 0.15);
+}
+
+.badge {
+  letter-spacing: 0.08em;
+}
+
+.hindi {
+  font-family: var(--font-source-serif), serif;
+  font-size: 1.1rem;
+}
+
+.grid-guide {
+  background-image: radial-gradient(circle at 1px 1px, rgba(42, 157, 143, 0.25) 1px, transparent 0);
+  background-size: 24px 24px;
+}
